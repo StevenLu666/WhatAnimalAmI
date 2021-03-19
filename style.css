@@ -1,0 +1,71 @@
+html {
+    /*background-image: url('img/bg.png');
+    background-size: 100% 100%;*/
+    min-height: 100%;
+    z-index: 10;
+}
+body {
+    font-family: OpenSans-Light;
+    background: transparent;
+    color: #fff;
+    width: 100%;
+}
+
+image.moon {
+    display: block;
+    margin: auto auto;
+}
+
+#header {
+    position: relative;
+}
+
+#content {
+    margin-bottom: 16px;
+}
+
+#content input {
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px rgba(20, 20, 20, 0.5);
+}
+
+#content #name,
+#content #gender {
+    width: 50%;
+    margin: 12px auto;
+}
+
+#content .cell {
+    padding: 8px;
+    padding-left: 12px;
+    color: rgb(90, 103, 121);
+    background-color: #fff;
+    font-size: 13px;
+    text-align: left;
+    display: block;
+}
+
+#content .cell:hover {
+    cursor: pointer;
+    background-color: #50a3ba;
+    color: #fff;
+}
+
+#content .select:hover {
+    cursor: pointer;
+}
+
+#content .select.active {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#content .div {
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
